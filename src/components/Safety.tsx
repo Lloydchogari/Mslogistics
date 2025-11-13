@@ -49,7 +49,7 @@ const Safety = () => {
       </div>
 
       {/* Large background text */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-gray-200 font-bold text-[5rem] md:text-[8rem] lg:text-[10rem] leading-none select-none pointer-events-none">
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-gray-300 font-bold text-[5rem] md:text-[8rem] lg:text-[10rem] leading-none select-none pointer-events-none opacity-40">
         SAFETY
       </div>
 
@@ -105,11 +105,11 @@ const Safety = () => {
                 return (
                   <div
                     key={`original-${index}`}
-                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-gray-50 border border-gray-200 rounded-3xl p-6 shadow-lg text-center"
+                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-6 shadow-xl text-center"
                   >
                     <div className="relative">
                       {/* Icon */}
-                      <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 border border-blue-300 rounded-2xl flex items-center justify-center">
+                      <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100/60 to-blue-200/60 backdrop-blur-sm border border-blue-300/50 rounded-2xl flex items-center justify-center">
                         <Icon className="w-8 h-8 text-blue-600" />
                       </div>
                       {/* Title */}
@@ -117,7 +117,7 @@ const Safety = () => {
                         {feature.title}
                       </h3>
                       {/* Description */}
-                      <p className="text-gray-600 text-sm leading-relaxed">
+                      <p className="text-gray-700 text-sm leading-relaxed">
                         {feature.description}
                       </p>
                     </div>
@@ -131,11 +131,11 @@ const Safety = () => {
                 return (
                   <div
                     key={`duplicate-${index}`}
-                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-gray-50 border border-gray-200 rounded-3xl p-6 shadow-lg text-center"
+                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-6 shadow-xl text-center"
                   >
                     <div className="relative">
                       {/* Icon */}
-                      <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 border border-blue-300 rounded-2xl flex items-center justify-center">
+                      <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100/60 to-blue-200/60 backdrop-blur-sm border border-blue-300/50 rounded-2xl flex items-center justify-center">
                         <Icon className="w-8 h-8 text-blue-600" />
                       </div>
                       {/* Title */}
@@ -143,7 +143,7 @@ const Safety = () => {
                         {feature.title}
                       </h3>
                       {/* Description */}
-                      <p className="text-gray-600 text-sm leading-relaxed">
+                      <p className="text-gray-700 text-sm leading-relaxed">
                         {feature.description}
                       </p>
                     </div>
@@ -161,13 +161,13 @@ const Safety = () => {
               return (
                 <div
                   key={index}
-                  className="group relative bg-gray-50 border border-gray-200 rounded-3xl p-6 hover:bg-gray-100 hover:border-blue-400 transition-all duration-300 hover:-translate-y-2 shadow-lg text-center"
+                  className="group relative bg-white/10 backdrop-blur-sm border border-white/40 rounded-3xl p-6 hover:bg-white/40 hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-2 shadow-xl text-center"
                 >
                   {/* Gradient overlay on hover */}
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-blue-500/0 group-hover:from-blue-500/5 group-hover:to-blue-500/10 rounded-3xl transition-all duration-300"></div>
                   <div className="relative">
                     {/* Icon */}
-                    <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 border border-blue-300 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100/60 to-blue-200/60 backdrop-blur-sm border border-blue-300/50 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <Icon className="w-8 h-8 text-blue-600" />
                     </div>
                     {/* Title */}
@@ -175,7 +175,7 @@ const Safety = () => {
                       {feature.title}
                     </h3>
                     {/* Description */}
-                    <p className="text-gray-600 text-sm leading-relaxed">
+                    <p className="text-gray-700 text-sm leading-relaxed">
                       {feature.description}
                     </p>
                   </div>
@@ -186,14 +186,14 @@ const Safety = () => {
         </div>
         
         {/* Additional Info Section */}
-        <div className="bg-gray-50 border border-gray-200 rounded-3xl md:rounded-3xl rounded-none p-6 text-center -mx-4 md:mx-0">
+        <div className="bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl md:rounded-3xl rounded-none p-6 text-center -mx-4 md:mx-0 shadow-xl">
           <div className="flex items-center justify-center gap-3 mb-3">
             <ShieldCheck className="w-7 h-7 text-red-600" />
             <h3 className="text-xl font-bold text-gray-900">
               Certified & Trusted
             </h3>
           </div>
-          <p className="text-gray-600 text-sm max-w-3xl mx-auto">
+          <p className="text-gray-700 text-sm max-w-3xl mx-auto">
             Our commitment to safety goes beyond standards. Every aspect of our service is designed with your well-being in mind, from vehicle inspections to driver training programs.
           </p>
         </div>
