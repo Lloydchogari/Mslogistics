@@ -28,7 +28,7 @@ const Safety = () => {
     },
   ];
 
-  // CSS for auto-scroll animation on small screens
+  // CSS for auto-scroll animation on small screens only
   const scrollAnimation = `
     @keyframes scroll {
       0% {
