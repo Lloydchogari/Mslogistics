@@ -42,11 +42,10 @@ const Safety = () => {
 
   return (
     <section id="safety" className="min-h-screen bg-white text-gray-900 relative overflow-hidden py-16">
-      {/* Background decoration - made more vibrant */}
-      <div className="absolute inset-0 opacity-40">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-blue-400/50 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-400/50 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-cyan-400/40 rounded-full blur-3xl"></div>
+      {/* Background decoration */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute top-20 left-20 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl"></div>
       </div>
 
       {/* Large background text */}
@@ -106,16 +105,11 @@ const Safety = () => {
                 return (
                   <div
                     key={`original-${index}`}
-                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-6 shadow-2xl text-center"
-                    style={{
-                      background: 'rgba(255, 255, 255, 0.1)',
-                      backdropFilter: 'blur(20px)',
-                      WebkitBackdropFilter: 'blur(20px)'
-                    }}
+                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-6 shadow-xl text-center"
                   >
                     <div className="relative">
                       {/* Icon */}
-                      <div className="mx-auto mb-4 w-16 h-16 bg-white/20 backdrop-blur-sm border border-white/40 rounded-2xl flex items-center justify-center">
+                      <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100/60 to-blue-200/60 backdrop-blur-sm border border-blue-300/50 rounded-2xl flex items-center justify-center">
                         <Icon className="w-8 h-8 text-blue-600" />
                       </div>
                       {/* Title */}
@@ -137,16 +131,11 @@ const Safety = () => {
                 return (
                   <div
                     key={`duplicate-${index}`}
-                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-6 shadow-2xl text-center"
-                    style={{
-                      background: 'rgba(255, 255, 255, 0.1)',
-                      backdropFilter: 'blur(20px)',
-                      WebkitBackdropFilter: 'blur(20px)'
-                    }}
+                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-6 shadow-xl text-center"
                   >
                     <div className="relative">
                       {/* Icon */}
-                      <div className="mx-auto mb-4 w-16 h-16 bg-white/20 backdrop-blur-sm border border-white/40 rounded-2xl flex items-center justify-center">
+                      <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100/60 to-blue-200/60 backdrop-blur-sm border border-blue-300/50 rounded-2xl flex items-center justify-center">
                         <Icon className="w-8 h-8 text-blue-600" />
                       </div>
                       {/* Title */}
@@ -172,18 +161,13 @@ const Safety = () => {
               return (
                 <div
                   key={index}
-                  className="group relative bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl p-6 hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:-translate-y-2 shadow-2xl text-center"
-                  style={{
-                    background: 'rgba(255, 255, 255, 0.1)',
-                    backdropFilter: 'blur(20px)',
-                    WebkitBackdropFilter: 'blur(20px)'
-                  }}
+                  className="group relative bg-white/10 backdrop-blur-sm border border-white/40 rounded-3xl p-6 hover:bg-white/40 hover:border-blue-400/50 transition-all duration-300 hover:-translate-y-2 shadow-xl text-center"
                 >
                   {/* Gradient overlay on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-purple-500/0 group-hover:from-blue-500/10 group-hover:to-purple-500/10 rounded-3xl transition-all duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-blue-500/0 group-hover:from-blue-500/5 group-hover:to-blue-500/10 rounded-3xl transition-all duration-300"></div>
                   <div className="relative">
                     {/* Icon */}
-                    <div className="mx-auto mb-4 w-16 h-16 bg-white/20 backdrop-blur-sm border border-white/40 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div className="mx-auto mb-4 w-16 h-16 bg-gradient-to-br from-blue-100/60 to-blue-200/60 backdrop-blur-sm border border-blue-300/50 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <Icon className="w-8 h-8 text-blue-600" />
                     </div>
                     {/* Title */}
@@ -201,15 +185,8 @@ const Safety = () => {
           </div>
         </div>
         
-        {/* Additional Info Section - Moved down with margin-top */}
-        <div 
-          className="bg-white/10 backdrop-blur-xl border border-white/30 rounded-3xl md:rounded-3xl rounded-none p-6 text-center -mx-4 md:mx-0 shadow-2xl mt-16"
-          style={{
-            background: 'rgba(255, 255, 255, 0.1)',
-            backdropFilter: 'blur(20px)',
-            WebkitBackdropFilter: 'blur(20px)'
-          }}
-        >
+        {/* Additional Info Section */}
+        <div className="bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl md:rounded-3xl rounded-none p-6 text-center -mx-4 md:mx-0 shadow-xl mt-16">
           <div className="flex items-center justify-center gap-3 mb-3">
             <ShieldCheck className="w-7 h-7 text-red-600" />
             <h3 className="text-xl font-bold text-gray-900">
