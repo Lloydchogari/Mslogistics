@@ -2,8 +2,7 @@ import { CheckCircle, Award, Shield, Users } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 // Sample background and logo 
-const BG_IMAGE = "/images/buses1.png";
-const LOGO_IMAGE = "/images/bus1.jpeg";
+const BG_IMAGE = "/images/ms.logobg.png";
 
 const features = [
   {
@@ -50,22 +49,13 @@ const About = () => {
       className="relative py-24"
       style={{
         backgroundImage: `url(${BG_IMAGE})`,
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundPosition: "center"
       }}
     >
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/80 z-0" />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-
-        {/* Logo top center for mobile */}
-        <div className="w-full flex justify-center mb-10 md:hidden">
-          <img
-            src={LOGO_IMAGE}
-            alt="Metalstone Logo"
-            className="h-20 drop-shadow-xl object-contain"
-          />
-        </div>
 
         {/* Section header and logo for desktop */}
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-16">
@@ -78,14 +68,7 @@ const About = () => {
               connecting families, businesses, and communities across the nation. Comfort, reliability, and safety for an unmatched travel experience.
             </p>
           </div>
-          {/* Logo on the right for md+ */}
-          <div className="md:w-1/3 items-center justify-end mt-8 md:mt-0 hidden md:flex">
-            <img
-              src={LOGO_IMAGE}
-              alt="Metalstone Logo"
-              className="h-20 md:h-24 drop-shadow-xl object-contain"
-            />
-          </div>
+         
         </div>
 
         {/* Cards carousel */}

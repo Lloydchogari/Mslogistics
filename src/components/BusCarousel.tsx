@@ -45,22 +45,22 @@ const BusCarousel = () => {
           </div>
 
           {/* Right: Logo with Glass Text Overlay */}
-          <div className="relative rounded-lg overflow-hidden shadow-xl">
+          <div className="relative rounded-lg overflow-hidden shadow-2xl">
             {/* Logo Background Image */}
             <div className="w-full h-full min-h-[400px] lg:min-h-full">
               <img
-                src="/images/ms.logo.png"
+                src="/images/ms.logobg.png"
                 alt="Metalstone Logistics Logo"
                 className="w-full h-full object-cover bg-white p-8"
               />
             </div>
 
-            {/* Glass Overlay Text - More visible background */}
-            <div className="absolute top-6 left-6 right-6 backdrop-blur-sm bg-white/10 rounded-lg p-6 shadow-lg border border-gray-300 z-10">
+            {/* Glass Overlay Text - Always glassy*/}
+            <div className="absolute top-6 left-6 right-6 backdrop-blur-sm bg-white/10 rounded-lg p-6 z-10">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
                 Metalstone Logistics
               </h3>
-              <p className="text-base md:text-lg text-gray-800 leading-relaxed">
+              <p className="text-base md:text-lg text-gray-900 leading-relaxed">
                 Your trusted partner in reliable and comfortable travel across Zimbabwe. We pride ourselves on providing safe, timely, and quality transportation services connecting major cities throughout the country.
               </p>
             </div>
