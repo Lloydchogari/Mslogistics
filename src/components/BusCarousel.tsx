@@ -56,7 +56,7 @@ const BusCarousel = () => {
             </div>
 
             {/* Glass Overlay Text - More visible background */}
-            <div className="absolute top-6 left-6 right-6 backdrop-blur-md bg-white/90 rounded-lg p-6 shadow-lg border border-gray-300 z-10">
+            <div className="absolute top-6 left-6 right-6 backdrop-blur-sm bg-white/10 rounded-lg p-6 shadow-lg border border-gray-300 z-10">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
                 Metalstone Logistics
               </h3>

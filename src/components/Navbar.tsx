@@ -103,7 +103,7 @@ const Navbar = () => {
               <div className="flex gap-4 h-48 mt-8">
                 <div className="w-1/3">
                   <img 
-                    src="/images/bus6.jpeg" 
+                    src="/images/ms.logobg.png" 
                     alt="Metalstone buses"
                     className="w-full h-full object-cover rounded-lg shadow-lg"
                   />
