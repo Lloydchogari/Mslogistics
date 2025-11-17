@@ -61,7 +61,7 @@ const Safety = () => {
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 md:mb-12 mb-20">
           <div className="inline-flex items-center gap-2 bg-gray-100 border border-gray-200 rounded-full px-4 py-2 mb-6">
             <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
             <span className="text-sm text-gray-600">Safety First</span>
@@ -90,7 +90,7 @@ const Safety = () => {
           <style>{scrollAnimation}</style>
           
           {/* Mobile: Auto-scrolling carousel */}
-          <div className="md:hidden overflow-hidden">
+          <div className="md:hidden overflow-hidden py-4">
             <div 
               className="flex gap-4 animate-scroll"
               style={{
@@ -105,7 +105,7 @@ const Safety = () => {
                 return (
                   <div
                     key={`original-${index}`}
-                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-6 shadow-xl text-center"
+                    className="flex-shrink-0 w-[85vw] sm:w-[65vw] bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-6 shadow-xl text-center"
                   >
                     <div className="relative">
                       {/* Icon */}
@@ -131,7 +131,7 @@ const Safety = () => {
                 return (
                   <div
                     key={`duplicate-${index}`}
-                    className="flex-shrink-0 w-[80vw] sm:w-[60vw] bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-6 shadow-xl text-center"
+                    className="flex-shrink-0 w-[85vw] sm:w-[65vw] bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-6 shadow-xl text-center"
                   >
                     <div className="relative">
                       {/* Icon */}
@@ -186,7 +186,7 @@ const Safety = () => {
         </div>
         
         {/* Additional Info Section */}
-        <div className="bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl md:rounded-3xl rounded-none p-6 text-center -mx-4 md:mx-0 shadow-xl mt-16">
+        <div className="bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl md:rounded-3xl rounded-none p-6 text-center -mx-4 md:mx-0 shadow-xl mt-16 md:mt-16 mt-24">
           <div className="flex items-center justify-center gap-3 mb-3">
             <ShieldCheck className="w-7 h-7 text-red-600" />
             <h3 className="text-xl font-bold text-gray-900">
