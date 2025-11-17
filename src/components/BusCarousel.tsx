@@ -3,8 +3,8 @@ const BusCarousel = () => {
   const fleetImages = [
     "/images/buses1.png",
     "/images/bus2.jpeg",
-    "/images/bus3.jpeg",
-    "/images/bus4.jpeg"
+    "/images/download (5).jpg",
+    "/images/zhongbus.webp"
   ];
 
   return (
