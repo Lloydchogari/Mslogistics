@@ -2,7 +2,7 @@ import { CheckCircle, Award, Shield, Users } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 // Sample background and logo 
-const BG_IMAGE = "/images/bus1.jpeg";
+const BG_IMAGE = "/images/buses1.png";
 const LOGO_IMAGE = "/images/bus1.jpeg";
 
 const features = [

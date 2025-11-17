@@ -73,7 +73,7 @@ const Safety = () => {
               Your Safety, Our Priority
             </h2>
             <img 
-              src="/images/bus6.jpeg" 
+              src="/images/ms.logobg.png" 
               alt="Bus 6"
               className="w-10 h-10 object-contain rounded-full"
             />

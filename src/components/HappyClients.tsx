@@ -6,19 +6,19 @@ const testimonials = [
   {
     name: "Sarah Moyo",
     title: "Frequent Rider",
-    image: "/images/bus1.jpeg", // Add client image to your public folder
+    image: "/images/download (7).jpg", 
     message: "Outstanding service, always on time and I feel truly safe with every journey. Highly recommend!",
   },
   {
     name: "Benjamin Dube",
     title: "Business Client",
-    image: "/images/bus.jpeg",
+    image: "/images/MetaSketch.jpg",
     message: "Professional, reliable and the customer support actually listens! Couldn't ask for more.",
   },
   {
     name: "Tumi Nkosi",
     title: "Travel Enthusiast",
-    image: "/images/bus5.jpeg",
+    image: "/images/download (6).jpg",
     message: "Modern cars, friendly drivers, and the booking process is effortless. My go-to every time.",
   },
 ];

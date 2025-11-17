@@ -5,7 +5,7 @@ const BusCarousel = () => {
 
   // Images for each container (3 images per container)
   const containerImages = [
-    ["/images/bus1.jpeg", "/images/bus2.jpeg", "/images/bus3.jpeg"],
+    ["/images/buses1.png", "/images/bus2.jpeg", "/images/bus3.jpeg"],
     ["/images/bus2.jpeg", "/images/bus3.jpeg", "/images/bus4.jpeg"],
     ["/images/bus3.jpeg", "/images/bus4.jpeg", "/images/bus5.jpeg"],
     ["/images/bus4.jpeg", "/images/bus5.jpeg", "/images/bus1.jpeg"]

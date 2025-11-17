@@ -65,7 +65,7 @@ const Navbar = () => {
             {/* Logo (Hidden on mobile when menu is open) */}
             <div className={`flex-shrink-0 transition-opacity duration-300 ${isMenuOpen ? 'md:opacity-100 opacity-0' : 'opacity-100'}`}>
               <img 
-                src="/images/ms.logo.png" 
+                src="/images/ms.logobg.png" 
                 alt="Metalstone Logo" 
                 className="h-10 w-auto"
               />
